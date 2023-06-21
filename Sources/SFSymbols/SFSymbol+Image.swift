@@ -9,7 +9,7 @@
     """)
  }
  */
-extension SFSymbol {
+public extension SFSymbol {
     var image: String {
         switch self {
         case .square_and_arrow_up:

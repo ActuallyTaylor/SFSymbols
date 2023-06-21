@@ -1,4 +1,4 @@
-enum SFSymbol: Equatable {
+public enum SFSymbol: Equatable {
     case custom(name: String)
     
     case square_and_arrow_up

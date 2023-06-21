@@ -1,4 +1,4 @@
-extension SFSymbol {
+public extension SFSymbol {
     var name: String {
         switch self {
         case .square_and_arrow_up:

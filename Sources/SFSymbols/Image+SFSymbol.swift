@@ -1,6 +1,6 @@
 import SwiftUI
 
-extension Image {
+public extension Image {
     init(symbol: SFSymbol) {
         switch symbol {
         case .custom(let name):

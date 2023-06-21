@@ -1,5 +1,5 @@
 extension SFSymbol: CaseIterable {
-    static var allCases: [SFSymbol] = [
+    public static var allCases: [SFSymbol] = [
         .square_and_arrow_up,
         .square_and_arrow_up_fill,
         .square_and_arrow_up_circle,
