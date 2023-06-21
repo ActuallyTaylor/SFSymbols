@@ -1,7 +1,12 @@
 import SwiftUI
 
 extension Image {
-    init(_ symbol: SFSymbol) {
-        self = Image(systemName: symbol.name)
+    init(symbol: SFSymbol) {
+        switch symbol {
+        case .custom(let name):
+            self = Image(name)
+        default:
+            self = Image(systemName: symbol.name)
+        }
     }
 }

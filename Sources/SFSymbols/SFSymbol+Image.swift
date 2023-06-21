@@ -8994,6 +8994,8 @@ extension SFSymbol {
             return "􀛢"
         case .apple_logo:
             return "􀣺"
+        case .custom(let name):
+            return name
         }
     }
 

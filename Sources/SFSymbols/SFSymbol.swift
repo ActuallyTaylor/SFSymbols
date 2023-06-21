@@ -1,4 +1,6 @@
-enum SFSymbol: String, CaseIterable, Equatable {
+enum SFSymbol: Equatable {
+    case custom(name: String)
+    
     case square_and_arrow_up
     case square_and_arrow_up_fill
     case square_and_arrow_up_circle
