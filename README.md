@@ -2,7 +2,10 @@
 A swift enumeration that can be used to access SF Symbols without having to use their string names.
 
 ## Install
-Add `https://github.com/ActuallyTaylor/SFSymbols/` to Swift Package Manager.
+Add the following URL to Swift Package Manager:
+```
+https://github.com/ActuallyTaylor/SFSymbols
+```
 
 ## How to use
 ```swift
