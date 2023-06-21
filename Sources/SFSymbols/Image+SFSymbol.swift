@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension Image {
-    init(symbol: SFSymbol) {
+    init(_ symbol: SFSymbol) {
         self = Image(systemName: symbol.name)
     }
 }
