@@ -1,5 +1,5 @@
 public enum SFSymbol: Equatable {
-    case custom(name: String)
+    case custom(_ named: String)
     
     case square_and_arrow_up
     case square_and_arrow_up_fill
