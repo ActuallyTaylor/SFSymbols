@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SFSymbols",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
         .macOS(.v11),
         .watchOS(.v4),
         .tvOS(.v11)
@@ -19,6 +19,10 @@ let package = Package(
     targets: [
         .target(
             name: "SFSymbols",
-            dependencies: [])
+            dependencies: []),
+        .testTarget(
+            name: "SFSymbolsTests",
+            dependencies: ["SFSymbols"]
+        ),
     ]
 )

@@ -1004,29 +1004,29 @@ extension SFSymbol {
         case .lane:
             return "lane"
         case .num_1_lane:
-            return "num.1.lane"
+            return "1.lane"
         case .num_2_lane:
-            return "num.2.lane"
+            return "2.lane"
         case .num_3_lane:
-            return "num.3.lane"
+            return "3.lane"
         case .num_4_lane:
-            return "num.4.lane"
+            return "4.lane"
         case .num_5_lane:
-            return "num.5.lane"
+            return "5.lane"
         case .num_6_lane:
-            return "num.6.lane"
+            return "6.lane"
         case .num_7_lane:
-            return "num.7.lane"
+            return "7.lane"
         case .num_8_lane:
-            return "num.8.lane"
+            return "8.lane"
         case .num_9_lane:
-            return "num.9.lane"
+            return "9.lane"
         case .num_10_lane:
-            return "num.10.lane"
+            return "10.lane"
         case .num_11_lane:
-            return "num.11.lane"
+            return "11.lane"
         case .num_12_lane:
-            return "num.12.lane"
+            return "12.lane"
         case .soccerball:
             return "soccerball"
         case .soccerball_inverse:
@@ -1966,7 +1966,7 @@ extension SFSymbol {
         case .minus_magnifyingglass:
             return "minus.magnifyingglass"
         case .num_1_magnifyingglass:
-            return "num.1.magnifyingglass"
+            return "1.magnifyingglass"
         case .arrow_up_left_and_down_right_magnifyingglass:
             return "arrow.up.left.and.down.right.magnifyingglass"
         case .text_magnifyingglass:
@@ -5018,9 +5018,9 @@ extension SFSymbol {
         case .sparkles_tv_fill:
             return "sparkles.tv.fill"
         case .num_4k_tv:
-            return "num.4k.tv"
+            return "4k.tv"
         case .num_4k_tv_fill:
-            return "num.4k.tv.fill"
+            return "4k.tv.fill"
         case .music_note_tv:
             return "music.note.tv"
         case .music_note_tv_fill:
@@ -5350,9 +5350,9 @@ extension SFSymbol {
         case .exclamationmark_brakesignal:
             return "exclamationmark.brakesignal"
         case .num_1_brakesignal:
-            return "num.1.brakesignal"
+            return "1.brakesignal"
         case .num_2_brakesignal:
-            return "num.2.brakesignal"
+            return "2.brakesignal"
         case .auto_brakesignal:
             return "auto.brakesignal"
         case .parkingsign_brakesignal:
@@ -7110,9 +7110,9 @@ extension SFSymbol {
         case .textformat_123:
             return "textformat.123"
         case .num_123_rectangle:
-            return "num.123.rectangle"
+            return "123.rectangle"
         case .num_123_rectangle_fill:
-            return "num.123.rectangle.fill"
+            return "123.rectangle.fill"
         case .textformat_12:
             return "textformat.12"
         case .character_textbox:
@@ -8470,517 +8470,517 @@ extension SFSymbol {
         case .brazilianrealsign_square_fill:
             return "brazilianrealsign.square.fill"
         case .num_0_circle:
-            return "num.0.circle"
+            return "0.circle"
         case .num_0_circle_fill:
-            return "num.0.circle.fill"
+            return "0.circle.fill"
         case .num_0_square:
-            return "num.0.square"
+            return "0.square"
         case .num_0_square_fill:
-            return "num.0.square.fill"
+            return "0.square.fill"
         case .num_1_circle:
-            return "num.1.circle"
+            return "1.circle"
         case .num_1_circle_fill:
-            return "num.1.circle.fill"
+            return "1.circle.fill"
         case .num_1_square:
-            return "num.1.square"
+            return "1.square"
         case .num_1_square_fill:
-            return "num.1.square.fill"
+            return "1.square.fill"
         case .num_2_circle:
-            return "num.2.circle"
+            return "2.circle"
         case .num_2_circle_fill:
-            return "num.2.circle.fill"
+            return "2.circle.fill"
         case .num_2_square:
-            return "num.2.square"
+            return "2.square"
         case .num_2_square_fill:
-            return "num.2.square.fill"
+            return "2.square.fill"
         case .num_3_circle:
-            return "num.3.circle"
+            return "3.circle"
         case .num_3_circle_fill:
-            return "num.3.circle.fill"
+            return "3.circle.fill"
         case .num_3_square:
-            return "num.3.square"
+            return "3.square"
         case .num_3_square_fill:
-            return "num.3.square.fill"
+            return "3.square.fill"
         case .num_4_circle:
-            return "num.4.circle"
+            return "4.circle"
         case .num_4_circle_fill:
-            return "num.4.circle.fill"
+            return "4.circle.fill"
         case .num_4_square:
-            return "num.4.square"
+            return "4.square"
         case .num_4_square_fill:
-            return "num.4.square.fill"
+            return "4.square.fill"
         case .num_4_alt_circle:
-            return "num.4.alt.circle"
+            return "4.alt.circle"
         case .num_4_alt_circle_fill:
-            return "num.4.alt.circle.fill"
+            return "4.alt.circle.fill"
         case .num_4_alt_square:
-            return "num.4.alt.square"
+            return "4.alt.square"
         case .num_4_alt_square_fill:
-            return "num.4.alt.square.fill"
+            return "4.alt.square.fill"
         case .num_5_circle:
-            return "num.5.circle"
+            return "5.circle"
         case .num_5_circle_fill:
-            return "num.5.circle.fill"
+            return "5.circle.fill"
         case .num_5_square:
-            return "num.5.square"
+            return "5.square"
         case .num_5_square_fill:
-            return "num.5.square.fill"
+            return "5.square.fill"
         case .num_6_circle:
-            return "num.6.circle"
+            return "6.circle"
         case .num_6_circle_fill:
-            return "num.6.circle.fill"
+            return "6.circle.fill"
         case .num_6_square:
-            return "num.6.square"
+            return "6.square"
         case .num_6_square_fill:
-            return "num.6.square.fill"
+            return "6.square.fill"
         case .num_6_alt_circle:
-            return "num.6.alt.circle"
+            return "6.alt.circle"
         case .num_6_alt_circle_fill:
-            return "num.6.alt.circle.fill"
+            return "6.alt.circle.fill"
         case .num_6_alt_square:
-            return "num.6.alt.square"
+            return "6.alt.square"
         case .num_6_alt_square_fill:
-            return "num.6.alt.square.fill"
+            return "6.alt.square.fill"
         case .num_7_circle:
-            return "num.7.circle"
+            return "7.circle"
         case .num_7_circle_fill:
-            return "num.7.circle.fill"
+            return "7.circle.fill"
         case .num_7_square:
-            return "num.7.square"
+            return "7.square"
         case .num_7_square_fill:
-            return "num.7.square.fill"
+            return "7.square.fill"
         case .num_8_circle:
-            return "num.8.circle"
+            return "8.circle"
         case .num_8_circle_fill:
-            return "num.8.circle.fill"
+            return "8.circle.fill"
         case .num_8_square:
-            return "num.8.square"
+            return "8.square"
         case .num_8_square_fill:
-            return "num.8.square.fill"
+            return "8.square.fill"
         case .num_9_circle:
-            return "num.9.circle"
+            return "9.circle"
         case .num_9_circle_fill:
-            return "num.9.circle.fill"
+            return "9.circle.fill"
         case .num_9_square:
-            return "num.9.square"
+            return "9.square"
         case .num_9_square_fill:
-            return "num.9.square.fill"
+            return "9.square.fill"
         case .num_9_alt_circle:
-            return "num.9.alt.circle"
+            return "9.alt.circle"
         case .num_9_alt_circle_fill:
-            return "num.9.alt.circle.fill"
+            return "9.alt.circle.fill"
         case .num_9_alt_square:
-            return "num.9.alt.square"
+            return "9.alt.square"
         case .num_9_alt_square_fill:
-            return "num.9.alt.square.fill"
+            return "9.alt.square.fill"
         case .num_00_circle:
-            return "num.00.circle"
+            return "00.circle"
         case .num_00_circle_fill:
-            return "num.00.circle.fill"
+            return "00.circle.fill"
         case .num_00_square:
-            return "num.00.square"
+            return "00.square"
         case .num_00_square_fill:
-            return "num.00.square.fill"
+            return "00.square.fill"
         case .num_01_circle:
-            return "num.01.circle"
+            return "01.circle"
         case .num_01_circle_fill:
-            return "num.01.circle.fill"
+            return "01.circle.fill"
         case .num_01_square:
-            return "num.01.square"
+            return "01.square"
         case .num_01_square_fill:
-            return "num.01.square.fill"
+            return "01.square.fill"
         case .num_02_circle:
-            return "num.02.circle"
+            return "02.circle"
         case .num_02_circle_fill:
-            return "num.02.circle.fill"
+            return "02.circle.fill"
         case .num_02_square:
-            return "num.02.square"
+            return "02.square"
         case .num_02_square_fill:
-            return "num.02.square.fill"
+            return "02.square.fill"
         case .num_03_circle:
-            return "num.03.circle"
+            return "03.circle"
         case .num_03_circle_fill:
-            return "num.03.circle.fill"
+            return "03.circle.fill"
         case .num_03_square:
-            return "num.03.square"
+            return "03.square"
         case .num_03_square_fill:
-            return "num.03.square.fill"
+            return "03.square.fill"
         case .num_04_circle:
-            return "num.04.circle"
+            return "04.circle"
         case .num_04_circle_fill:
-            return "num.04.circle.fill"
+            return "04.circle.fill"
         case .num_04_square:
-            return "num.04.square"
+            return "04.square"
         case .num_04_square_fill:
-            return "num.04.square.fill"
+            return "04.square.fill"
         case .num_05_circle:
-            return "num.05.circle"
+            return "05.circle"
         case .num_05_circle_fill:
-            return "num.05.circle.fill"
+            return "05.circle.fill"
         case .num_05_square:
-            return "num.05.square"
+            return "05.square"
         case .num_05_square_fill:
-            return "num.05.square.fill"
+            return "05.square.fill"
         case .num_06_circle:
-            return "num.06.circle"
+            return "06.circle"
         case .num_06_circle_fill:
-            return "num.06.circle.fill"
+            return "06.circle.fill"
         case .num_06_square:
-            return "num.06.square"
+            return "06.square"
         case .num_06_square_fill:
-            return "num.06.square.fill"
+            return "06.square.fill"
         case .num_07_circle:
-            return "num.07.circle"
+            return "07.circle"
         case .num_07_circle_fill:
-            return "num.07.circle.fill"
+            return "07.circle.fill"
         case .num_07_square:
-            return "num.07.square"
+            return "07.square"
         case .num_07_square_fill:
-            return "num.07.square.fill"
+            return "07.square.fill"
         case .num_08_circle:
-            return "num.08.circle"
+            return "08.circle"
         case .num_08_circle_fill:
-            return "num.08.circle.fill"
+            return "08.circle.fill"
         case .num_08_square:
-            return "num.08.square"
+            return "08.square"
         case .num_08_square_fill:
-            return "num.08.square.fill"
+            return "08.square.fill"
         case .num_09_circle:
-            return "num.09.circle"
+            return "09.circle"
         case .num_09_circle_fill:
-            return "num.09.circle.fill"
+            return "09.circle.fill"
         case .num_09_square:
-            return "num.09.square"
+            return "09.square"
         case .num_09_square_fill:
-            return "num.09.square.fill"
+            return "09.square.fill"
         case .num_10_circle:
-            return "num.10.circle"
+            return "10.circle"
         case .num_10_circle_fill:
-            return "num.10.circle.fill"
+            return "10.circle.fill"
         case .num_10_square:
-            return "num.10.square"
+            return "10.square"
         case .num_10_square_fill:
-            return "num.10.square.fill"
+            return "10.square.fill"
         case .num_11_circle:
-            return "num.11.circle"
+            return "11.circle"
         case .num_11_circle_fill:
-            return "num.11.circle.fill"
+            return "11.circle.fill"
         case .num_11_square:
-            return "num.11.square"
+            return "11.square"
         case .num_11_square_fill:
-            return "num.11.square.fill"
+            return "11.square.fill"
         case .num_12_circle:
-            return "num.12.circle"
+            return "12.circle"
         case .num_12_circle_fill:
-            return "num.12.circle.fill"
+            return "12.circle.fill"
         case .num_12_square:
-            return "num.12.square"
+            return "12.square"
         case .num_12_square_fill:
-            return "num.12.square.fill"
+            return "12.square.fill"
         case .num_13_circle:
-            return "num.13.circle"
+            return "13.circle"
         case .num_13_circle_fill:
-            return "num.13.circle.fill"
+            return "13.circle.fill"
         case .num_13_square:
-            return "num.13.square"
+            return "13.square"
         case .num_13_square_fill:
-            return "num.13.square.fill"
+            return "13.square.fill"
         case .num_14_circle:
-            return "num.14.circle"
+            return "14.circle"
         case .num_14_circle_fill:
-            return "num.14.circle.fill"
+            return "14.circle.fill"
         case .num_14_square:
-            return "num.14.square"
+            return "14.square"
         case .num_14_square_fill:
-            return "num.14.square.fill"
+            return "14.square.fill"
         case .num_15_circle:
-            return "num.15.circle"
+            return "15.circle"
         case .num_15_circle_fill:
-            return "num.15.circle.fill"
+            return "15.circle.fill"
         case .num_15_square:
-            return "num.15.square"
+            return "15.square"
         case .num_15_square_fill:
-            return "num.15.square.fill"
+            return "15.square.fill"
         case .num_16_circle:
-            return "num.16.circle"
+            return "16.circle"
         case .num_16_circle_fill:
-            return "num.16.circle.fill"
+            return "16.circle.fill"
         case .num_16_square:
-            return "num.16.square"
+            return "16.square"
         case .num_16_square_fill:
-            return "num.16.square.fill"
+            return "16.square.fill"
         case .num_17_circle:
-            return "num.17.circle"
+            return "17.circle"
         case .num_17_circle_fill:
-            return "num.17.circle.fill"
+            return "17.circle.fill"
         case .num_17_square:
-            return "num.17.square"
+            return "17.square"
         case .num_17_square_fill:
-            return "num.17.square.fill"
+            return "17.square.fill"
         case .num_18_circle:
-            return "num.18.circle"
+            return "18.circle"
         case .num_18_circle_fill:
-            return "num.18.circle.fill"
+            return "18.circle.fill"
         case .num_18_square:
-            return "num.18.square"
+            return "18.square"
         case .num_18_square_fill:
-            return "num.18.square.fill"
+            return "18.square.fill"
         case .num_19_circle:
-            return "num.19.circle"
+            return "19.circle"
         case .num_19_circle_fill:
-            return "num.19.circle.fill"
+            return "19.circle.fill"
         case .num_19_square:
-            return "num.19.square"
+            return "19.square"
         case .num_19_square_fill:
-            return "num.19.square.fill"
+            return "19.square.fill"
         case .num_20_circle:
-            return "num.20.circle"
+            return "20.circle"
         case .num_20_circle_fill:
-            return "num.20.circle.fill"
+            return "20.circle.fill"
         case .num_20_square:
-            return "num.20.square"
+            return "20.square"
         case .num_20_square_fill:
-            return "num.20.square.fill"
+            return "20.square.fill"
         case .num_21_circle:
-            return "num.21.circle"
+            return "21.circle"
         case .num_21_circle_fill:
-            return "num.21.circle.fill"
+            return "21.circle.fill"
         case .num_21_square:
-            return "num.21.square"
+            return "21.square"
         case .num_21_square_fill:
-            return "num.21.square.fill"
+            return "21.square.fill"
         case .num_22_circle:
-            return "num.22.circle"
+            return "22.circle"
         case .num_22_circle_fill:
-            return "num.22.circle.fill"
+            return "22.circle.fill"
         case .num_22_square:
-            return "num.22.square"
+            return "22.square"
         case .num_22_square_fill:
-            return "num.22.square.fill"
+            return "22.square.fill"
         case .num_23_circle:
-            return "num.23.circle"
+            return "23.circle"
         case .num_23_circle_fill:
-            return "num.23.circle.fill"
+            return "23.circle.fill"
         case .num_23_square:
-            return "num.23.square"
+            return "23.square"
         case .num_23_square_fill:
-            return "num.23.square.fill"
+            return "23.square.fill"
         case .num_24_circle:
-            return "num.24.circle"
+            return "24.circle"
         case .num_24_circle_fill:
-            return "num.24.circle.fill"
+            return "24.circle.fill"
         case .num_24_square:
-            return "num.24.square"
+            return "24.square"
         case .num_24_square_fill:
-            return "num.24.square.fill"
+            return "24.square.fill"
         case .num_25_circle:
-            return "num.25.circle"
+            return "25.circle"
         case .num_25_circle_fill:
-            return "num.25.circle.fill"
+            return "25.circle.fill"
         case .num_25_square:
-            return "num.25.square"
+            return "25.square"
         case .num_25_square_fill:
-            return "num.25.square.fill"
+            return "25.square.fill"
         case .num_26_circle:
-            return "num.26.circle"
+            return "26.circle"
         case .num_26_circle_fill:
-            return "num.26.circle.fill"
+            return "26.circle.fill"
         case .num_26_square:
-            return "num.26.square"
+            return "26.square"
         case .num_26_square_fill:
-            return "num.26.square.fill"
+            return "26.square.fill"
         case .num_27_circle:
-            return "num.27.circle"
+            return "27.circle"
         case .num_27_circle_fill:
-            return "num.27.circle.fill"
+            return "27.circle.fill"
         case .num_27_square:
-            return "num.27.square"
+            return "27.square"
         case .num_27_square_fill:
-            return "num.27.square.fill"
+            return "27.square.fill"
         case .num_28_circle:
-            return "num.28.circle"
+            return "28.circle"
         case .num_28_circle_fill:
-            return "num.28.circle.fill"
+            return "28.circle.fill"
         case .num_28_square:
-            return "num.28.square"
+            return "28.square"
         case .num_28_square_fill:
-            return "num.28.square.fill"
+            return "28.square.fill"
         case .num_29_circle:
-            return "num.29.circle"
+            return "29.circle"
         case .num_29_circle_fill:
-            return "num.29.circle.fill"
+            return "29.circle.fill"
         case .num_29_square:
-            return "num.29.square"
+            return "29.square"
         case .num_29_square_fill:
-            return "num.29.square.fill"
+            return "29.square.fill"
         case .num_30_circle:
-            return "num.30.circle"
+            return "30.circle"
         case .num_30_circle_fill:
-            return "num.30.circle.fill"
+            return "30.circle.fill"
         case .num_30_square:
-            return "num.30.square"
+            return "30.square"
         case .num_30_square_fill:
-            return "num.30.square.fill"
+            return "30.square.fill"
         case .num_31_circle:
-            return "num.31.circle"
+            return "31.circle"
         case .num_31_circle_fill:
-            return "num.31.circle.fill"
+            return "31.circle.fill"
         case .num_31_square:
-            return "num.31.square"
+            return "31.square"
         case .num_31_square_fill:
-            return "num.31.square.fill"
+            return "31.square.fill"
         case .num_32_circle:
-            return "num.32.circle"
+            return "32.circle"
         case .num_32_circle_fill:
-            return "num.32.circle.fill"
+            return "32.circle.fill"
         case .num_32_square:
-            return "num.32.square"
+            return "32.square"
         case .num_32_square_fill:
-            return "num.32.square.fill"
+            return "32.square.fill"
         case .num_33_circle:
-            return "num.33.circle"
+            return "33.circle"
         case .num_33_circle_fill:
-            return "num.33.circle.fill"
+            return "33.circle.fill"
         case .num_33_square:
-            return "num.33.square"
+            return "33.square"
         case .num_33_square_fill:
-            return "num.33.square.fill"
+            return "33.square.fill"
         case .num_34_circle:
-            return "num.34.circle"
+            return "34.circle"
         case .num_34_circle_fill:
-            return "num.34.circle.fill"
+            return "34.circle.fill"
         case .num_34_square:
-            return "num.34.square"
+            return "34.square"
         case .num_34_square_fill:
-            return "num.34.square.fill"
+            return "34.square.fill"
         case .num_35_circle:
-            return "num.35.circle"
+            return "35.circle"
         case .num_35_circle_fill:
-            return "num.35.circle.fill"
+            return "35.circle.fill"
         case .num_35_square:
-            return "num.35.square"
+            return "35.square"
         case .num_35_square_fill:
-            return "num.35.square.fill"
+            return "35.square.fill"
         case .num_36_circle:
-            return "num.36.circle"
+            return "36.circle"
         case .num_36_circle_fill:
-            return "num.36.circle.fill"
+            return "36.circle.fill"
         case .num_36_square:
-            return "num.36.square"
+            return "36.square"
         case .num_36_square_fill:
-            return "num.36.square.fill"
+            return "36.square.fill"
         case .num_37_circle:
-            return "num.37.circle"
+            return "37.circle"
         case .num_37_circle_fill:
-            return "num.37.circle.fill"
+            return "37.circle.fill"
         case .num_37_square:
-            return "num.37.square"
+            return "37.square"
         case .num_37_square_fill:
-            return "num.37.square.fill"
+            return "37.square.fill"
         case .num_38_circle:
-            return "num.38.circle"
+            return "38.circle"
         case .num_38_circle_fill:
-            return "num.38.circle.fill"
+            return "38.circle.fill"
         case .num_38_square:
-            return "num.38.square"
+            return "38.square"
         case .num_38_square_fill:
-            return "num.38.square.fill"
+            return "38.square.fill"
         case .num_39_circle:
-            return "num.39.circle"
+            return "39.circle"
         case .num_39_circle_fill:
-            return "num.39.circle.fill"
+            return "39.circle.fill"
         case .num_39_square:
-            return "num.39.square"
+            return "39.square"
         case .num_39_square_fill:
-            return "num.39.square.fill"
+            return "39.square.fill"
         case .num_40_circle:
-            return "num.40.circle"
+            return "40.circle"
         case .num_40_circle_fill:
-            return "num.40.circle.fill"
+            return "40.circle.fill"
         case .num_40_square:
-            return "num.40.square"
+            return "40.square"
         case .num_40_square_fill:
-            return "num.40.square.fill"
+            return "40.square.fill"
         case .num_41_circle:
-            return "num.41.circle"
+            return "41.circle"
         case .num_41_circle_fill:
-            return "num.41.circle.fill"
+            return "41.circle.fill"
         case .num_41_square:
-            return "num.41.square"
+            return "41.square"
         case .num_41_square_fill:
-            return "num.41.square.fill"
+            return "41.square.fill"
         case .num_42_circle:
-            return "num.42.circle"
+            return "42.circle"
         case .num_42_circle_fill:
-            return "num.42.circle.fill"
+            return "42.circle.fill"
         case .num_42_square:
-            return "num.42.square"
+            return "42.square"
         case .num_42_square_fill:
-            return "num.42.square.fill"
+            return "42.square.fill"
         case .num_43_circle:
-            return "num.43.circle"
+            return "43.circle"
         case .num_43_circle_fill:
-            return "num.43.circle.fill"
+            return "43.circle.fill"
         case .num_43_square:
-            return "num.43.square"
+            return "43.square"
         case .num_43_square_fill:
-            return "num.43.square.fill"
+            return "43.square.fill"
         case .num_44_circle:
-            return "num.44.circle"
+            return "44.circle"
         case .num_44_circle_fill:
-            return "num.44.circle.fill"
+            return "44.circle.fill"
         case .num_44_square:
-            return "num.44.square"
+            return "44.square"
         case .num_44_square_fill:
-            return "num.44.square.fill"
+            return "44.square.fill"
         case .num_45_circle:
-            return "num.45.circle"
+            return "45.circle"
         case .num_45_circle_fill:
-            return "num.45.circle.fill"
+            return "45.circle.fill"
         case .num_45_square:
-            return "num.45.square"
+            return "45.square"
         case .num_45_square_fill:
-            return "num.45.square.fill"
+            return "45.square.fill"
         case .num_46_circle:
-            return "num.46.circle"
+            return "46.circle"
         case .num_46_circle_fill:
-            return "num.46.circle.fill"
+            return "46.circle.fill"
         case .num_46_square:
-            return "num.46.square"
+            return "46.square"
         case .num_46_square_fill:
-            return "num.46.square.fill"
+            return "46.square.fill"
         case .num_47_circle:
-            return "num.47.circle"
+            return "47.circle"
         case .num_47_circle_fill:
-            return "num.47.circle.fill"
+            return "47.circle.fill"
         case .num_47_square:
-            return "num.47.square"
+            return "47.square"
         case .num_47_square_fill:
-            return "num.47.square.fill"
+            return "47.square.fill"
         case .num_48_circle:
-            return "num.48.circle"
+            return "48.circle"
         case .num_48_circle_fill:
-            return "num.48.circle.fill"
+            return "48.circle.fill"
         case .num_48_square:
-            return "num.48.square"
+            return "48.square"
         case .num_48_square_fill:
-            return "num.48.square.fill"
+            return "48.square.fill"
         case .num_49_circle:
-            return "num.49.circle"
+            return "49.circle"
         case .num_49_circle_fill:
-            return "num.49.circle.fill"
+            return "49.circle.fill"
         case .num_49_square:
-            return "num.49.square"
+            return "49.square"
         case .num_49_square_fill:
-            return "num.49.square.fill"
+            return "49.square.fill"
         case .num_50_circle:
-            return "num.50.circle"
+            return "50.circle"
         case .num_50_circle_fill:
-            return "num.50.circle.fill"
+            return "50.circle.fill"
         case .num_50_square:
-            return "num.50.square"
+            return "50.square"
         case .num_50_square_fill:
-            return "num.50.square.fill"
+            return "50.square.fill"
         case .apple_logo:
             return "apple.logo"
         case .custom(let name):
