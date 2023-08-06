@@ -1,5 +1,6 @@
 import SwiftUI
 
+@available(iOS 14.0, *)
 public extension Label {
   init(_ titleKey: LocalizedStringKey,
        symbol: SFSymbol) where Title == Text, Icon == Image {
