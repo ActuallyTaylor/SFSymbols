@@ -8,7 +8,7 @@ public extension Menu {
         })
     }
     
-    @available(iOS 15.0, *)
+    @available(iOS 15.0, macOS 12.0, *)
     init(_ symbol: SFSymbol, content: @escaping () -> Content, primaryAction: @escaping () -> Void) where Label == Image, Content : View {
         self = Menu(content: content, label: {
             Image(symbol)

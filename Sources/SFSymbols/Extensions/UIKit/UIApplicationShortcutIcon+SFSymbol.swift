@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit
 
 extension UIApplicationShortcutIcon {
@@ -10,3 +11,4 @@ extension UIApplicationShortcutIcon {
         }
     }
 }
+#endif

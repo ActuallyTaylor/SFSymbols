@@ -7,7 +7,7 @@ public extension Button {
         })
     }
     
-    @available(iOS 15.0, *)
+    @available(iOS 15.0, macOS 12.0, *)
     init(_ symbol: SFSymbol, role: ButtonRole?, action: @escaping () -> Void) where Label == Image {
         self = Button(role: role, action: action, label: {
             Image(symbol)
