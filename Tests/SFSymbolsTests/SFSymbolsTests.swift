@@ -25,7 +25,12 @@ final class SFSymbolsTests: XCTestCase {
     }
         
     @available(iOS 17, *)
+    @available(macOS 15, *)
     func testV5Valid() throws {
+        if #unavailable(macOS 15, iOS 17) {
+            print("Not Testing Version 5 Symbols. System does not support them.")
+            return
+        }
         for symbol in SFSymbol.sfSymbolsV5 {
             #if canImport(AppKit)
             let image = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)
