@@ -1,6 +1,6 @@
 extension SFSymbol {
     @available(iOS, introduced: 17, message: "This symbol is only available in iOS 17")
-    @available(macOS, introduced: 15, message: "This symbol is only available in macOS 15")
+    @available(macOS, introduced: 14, message: "This symbol is only available in macOS 14")
     @available(watchOS, introduced: 10, message: "This symbol is only available in watchOS 10")
     @available(tvOS, introduced: 17, message: "This symbol is only available in tvOS 15")
     public static var sfSymbolsV5: [SFSymbol] = [
