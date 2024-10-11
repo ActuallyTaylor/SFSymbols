@@ -3,6 +3,7 @@ extension SFSymbol {
     @available(macOS, introduced: 14, message: "This symbol is only available in macOS 14")
     @available(watchOS, introduced: 10, message: "This symbol is only available in watchOS 10")
     @available(tvOS, introduced: 17, message: "This symbol is only available in tvOS 15")
+    @available(visionOS, introduced: 1, message: "This symbol is only available in visionOS 2 and above")
     public static var sfSymbolsV5: [SFSymbol] = [
         .pencil_and_scribble,
         .pencil_tip_crop_circle_fill,

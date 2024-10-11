@@ -25,9 +25,9 @@ final class SFSymbolsTests: XCTestCase {
     }
         
     @available(iOS 17, *)
-    @available(macOS 15, *)
+    @available(macOS 14, *)
     func testV5Valid() throws {
-        if #unavailable(macOS 15, iOS 17) {
+        if #unavailable(macOS 14, iOS 17) {
             print("Not Testing Version 5 Symbols. System does not support them.")
             return
         }
@@ -45,4 +45,27 @@ final class SFSymbolsTests: XCTestCase {
             XCTAssertNotNil(image)
         }
     }
+    
+    @available(iOS 18, *)
+    @available(macOS 15, *)
+    func testV6Valid() throws {
+        if #unavailable(macOS 15, iOS 18) {
+            print("Not Testing Version 6 Symbols. System does not support them.")
+            return
+        }
+        for symbol in SFSymbol.sfSymbolsV6 {
+            #if canImport(AppKit)
+            let image = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)
+            #elseif canImport(UIKit)
+            let image = UIImage(systemName: symbol.name)
+            #endif
+
+            if image == nil {
+                print("Invalid \(symbol.name)")
+            }
+            
+            XCTAssertNotNil(image)
+        }
+    }
+
 }
