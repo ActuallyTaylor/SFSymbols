@@ -3,6 +3,9 @@ import SwiftUI
 @available(macOS 15.0, *)
 @available(iOS 18.0, *)
 public extension Tab {
+    /// The type used to drive selection for the containing tab view.
+    public typealias TabValue = Value
+
     /// Creates a tab that the tab view presents when the tab view's selection
     /// matches the tab's value using a system symbol for the tab's tab item image,
     /// with a string label.
