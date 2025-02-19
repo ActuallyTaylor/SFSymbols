@@ -1,5 +1,5 @@
 import XCTest
-#if canImport(AppKit)
+#if canImport(AppKit) && !targetEnvironment(macCatalyst)
 import AppKit
 #elseif canImport(UIKit)
 import UIKit
@@ -10,7 +10,7 @@ import UIKit
 final class SFSymbolsTests: XCTestCase {
     func testV4Valid() throws {
         for symbol in SFSymbol.sfSymbolsV4 {
-            #if canImport(AppKit)
+            #if canImport(AppKit) && !targetEnvironment(macCatalyst)
             let image = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)
             #elseif canImport(UIKit)
             let image = UIImage(systemName: symbol.name)
@@ -32,7 +32,7 @@ final class SFSymbolsTests: XCTestCase {
             return
         }
         for symbol in SFSymbol.sfSymbolsV5 {
-            #if canImport(AppKit)
+            #if canImport(AppKit) && !targetEnvironment(macCatalyst)
             let image = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)
             #elseif canImport(UIKit)
             let image = UIImage(systemName: symbol.name)
@@ -54,7 +54,7 @@ final class SFSymbolsTests: XCTestCase {
             return
         }
         for symbol in SFSymbol.sfSymbolsV6 {
-            #if canImport(AppKit)
+            #if canImport(AppKit) && !targetEnvironment(macCatalyst)
             let image = NSImage(systemSymbolName: symbol.name, accessibilityDescription: nil)
             #elseif canImport(UIKit)
             let image = UIImage(systemName: symbol.name)
